@@ -1,0 +1,178 @@
+\clearpage
+\section{Project Overview}\label{project-overview}
+Successfully ensuring that this project meets its goals is critically dependent upon the quality of the project management.
+
+\subsection{PERC's Requisites}
+From the \textit{\gls{perc}} \textit{\gls{rfp}} Giglium indentify these mandatory requisites.\footnote{Mandatory requirements will be referred with \texttt{M}, binding as the primary objective required}
+
+\begin{table}[H]
+	\centering
+	\begin{tabular}{|l|l|} 
+		\hline
+		\textbf{Code} & \textbf{Description} \\
+		\hline
+		\texttt{M01} & \parbox{15 cm}{Help desk support from Monday through Friday, 9:00 \textit{\gls{am}} to 9:00 \textit{\gls{pm}} \textit{\gls{etz}}.} \\
+		\hline
+		\texttt{M02} & \parbox{15 cm}{Student should be able to contact the help desk via a toll-free number~(s), a regular long distance number, email, and fax.} \\
+		\hline
+		\texttt{M03} & \parbox{15 cm}{Describe in detail the physical locations and arrangement of staff (call center vs.\ home-based).} \\
+		\hline
+		\texttt{M04} & \parbox{15 cm}{each call will need to be databased in either a new or existing database. If it is a new database Portions of this database may need to be searchable on the \gls{st} Online Resource~\cite{propanesafety}.} \\
+		\hline
+		\texttt{M05} & \parbox{15 cm}{\textit{\gls{perc}} will provide application-specific scripts for staff.} \\
+		\hline
+		\texttt{M06} & \parbox{15 cm}{\textit{\gls{perc}} will host the web-based database internally.} \\
+		\hline
+	\end{tabular}
+	\caption{Mandatory requirements}\label{tab:m_requirements}
+\end{table}
+\noindent From the \textit{\gls{perc}} \textit{\gls{rfp}} Giglium indentify these optional requisites.\footnote{Optional requirements will be referred with \texttt{O}, non-binding or strictly necessary requirements but they representing added value}
+
+\begin{table}[H]
+	\centering
+	\begin{tabular}{|l|l|} 
+		\hline
+		\textbf{Code} & \textbf{Description} \\
+		\hline
+		\texttt{O01} & \parbox{15 cm}{Help desk support considering other types of hours offerings (e.g. 24{-}7, with weekends vs.\ without weekends.)} \\
+		\hline
+		\texttt{O02} & \parbox{15 cm}{A call queue is preferred.} \\
+		\hline
+		\texttt{O03} & \parbox{15 cm}{The proposed solution must be scalable to meet increased or decreased demand.} \\
+		\hline
+	\end{tabular}
+	\caption{Optional requirements}\label{tab:o_requirements}
+\end{table}
+
+\subsection{PERC's Role}
+\textit{\gls{perc}}, via their support team of experts, will act as the expert team. The experts are responsible for making timely and appropriate contributions within their areas of expertise including, but not limited to:
+
+\begin{itemize}
+	\item contributions to dialog via email and telephone, online, and face-to-face meeting to help the students with their needs;
+	\item the authoring of specific subsections of articles of the \textit{\gls{kb}};
+	\item periodically review articles of the \textit{\gls{kb}};
+	\item potentially providing feedback on, or editing drafts of the \textit{\gls{kb}};
+	\item potentially contributing engineering expertise to the design and development of supporting technical artifacts;
+\end{itemize}
+
+It is to be expected that many experts will not have the resources to take a leading role
+in the authoring of either the \textit{\gls{kb}} or its supporting artifacts.
+Consequently, those aspects of the project are mentioned as potential, rather than mandatory
+contributions above.
+
+\subsection{Giglium's Role}
+The main technical project management role of Giglium is to facilitate communication with students and help the troubleshooting process to be quicker.
+
+Activities for which Giglium is responsible include, but are not limited to:
+\begin{itemize}
+	\item creating, triaging, updating, and ensuring the resolution of tickets relating to service requests and incidents;
+	\item create and maintain the help desk ticketing system;
+	\item helping organize and conduct online, telephone, and face-to-face meetings with students if needed
+\end{itemize}
+This technical management capacity is complemented by Giglium's role in concretizing the high-level specification of the help desk system described in this proposal. More specifically, Giglium will be the editor and, when necessary, author, of a set of rigorous engineering artifacts fit for refinement into a working help desk system. The expected nature
+of these specifications is discussed later in section~\ref*{implementation}.
+
+\subsection{Giglium's Team}
+Giglium will gather a team of professionals to meet the needs of \textit{\gls{perc}}, the professional figures are as follows:
+\begin{itemize}
+	\item \textbf{Solution Architect}: Mario Rossi (\href{mailto:mario.rossi@giglium.com}{mario.rossi@giglium.com}) is the designated solution architect for this project. Mario has many years of experience in this role and several certifications:
+	\begin{itemize}
+		\item Azure solution Architect\cite{azure_solution_architect_certification};
+		\item Sysaid Certification Program\cite{sysaid_certification};
+		\item \textit{\gls{itil}} strategic leader\cite{itil_strategic_certification};
+		\item Cambridge English qualification C2 proficiency\cite{c2_certification}.
+	\end{itemize}
+	His task was to design the solution described in section~\ref{implementation} and it will be in charge to analyze and understand the needs of the \textit{\gls{perc}} to adjust the solution that aims at the maximum result with the minimum effort and suit the \gls{perc} needs;
+	
+	\item \textbf{Cloud Native Developer}: They are the figure responsible for the development of what Mario has designed, in the section~\ref{implementation}. They are experts in their sector and they prove it through certifications:
+	\begin{itemize}
+		\item Azure Administrator Associate\cite{azure_administrator_certification} or/and Terraform\cite{terraform_associate_certification}\footnote{The final team will be defined after the sign of the proposal.};
+		\item \textit{\gls{itil}} v4 foundation\cite{itil_foundation_certification}.
+	\end{itemize}
+	\item \textbf{Help Desk Coordinator}: It will be the person in charge of enforcing and maintain the procedures described in the section~\ref{procedures}. It will provide first-level assistance, working together with the Help Desk Operator and it will also take care of the communication and the reporting with \textit{\gls{perc}}. To ensure the  service quality and prove its knowledge of the processes, this figure will have the following certification:
+	\begin{itemize}
+		\item \textit{\gls{itil}} v4 foundation\cite{itil_foundation_certification}.
+	\end{itemize}
+	\item \textbf{Help Desk Operator}: it will be the operator who will provide the first-level assistance. Giglium  will provided operators with a \textit{\gls{isced}} level greater than or equal to three.
+\end{itemize}
+
+\begin{tcolorbox}
+	All non-native English speaking staff provided by Giglium will have a \gls{cefr} C2 English language certification.
+\end{tcolorbox}
+
+\subsection{Other Actors}
+There are several actors relevant to be kept in mind. We must expect to have interactions
+with members of these communities.
+\begin{itemize}
+	\item \textit{Lawyer}. Maybe the hardest to handle category. Some of them are specialized in incidents related to propane. We need to know how to handle these actors in other to take care of protecting the interests and honor of the company.
+	\item \textit{Hackers}. The information security community can be interested in this project. This community has two overlapping sub-communities:
+	\begin{enumerate}
+		\item First, white hat hackers, like those that work in universities and with organizations like the
+		\textit{\gls{ccc}} are interested in showing that students' data are not in safe hands.
+		As such, members of this community can help us to avoid data breaches and for this reason, their feedback must be handle with importance. 
+		\item Secondly, members of the hacktivist community (e.g., members of
+		\textit{\gls{anonymous}}) or a lone wolf that wants to generate chaos or a data breach to gain some money.
+		Giglium recommends that an active approach must be taken with this second community.
+		From time to time, a specialist must be recruit to perform security analyses, code audits, penetration testing,
+		etc.
+	\end{enumerate}
+	
+	\item \textit{Students}. The general public must also be engaged with this project as they are the final arbiter of the subjective trustworthiness of the project and its participants.
+\end{itemize}
+
+It is to be determined what is the appropriate timing is with regards to the evolution of the help desk system and solicitation of feedback on its reports and artifacts from these actors. Giglium will contribute to the decision for the timing of
+such and the mechanism by which such input is collected, though the final decision rests to \textit{\gls{perc}}.
+
+\subsection{Coordination Technologies}
+Several coordination technologies are appropriate for the success of the help desk
+project. Highlighted below are those technologies that Giglium thinks are most relevant to be used in
+this project. Undoubtedly, several are in use at the moment, set up and managed by \textit{\gls{perc}}.
+For example, Giglium has understood that an instance of \textit{\gls{ad}} is in use.
+
+\subsubsection{SysAid}
+
+\begin{figure}[ht!]
+	\centering
+	\includegraphics[width=25mm]{./img/project/sysaid.png}
+	\caption{Sysaid logo}\label{fig:sysaid-logo}
+	\textbf{Source:} \url{https://www.sysaid.com/}
+\end{figure}
+
+The most relevant and central application for this project. SysAid\cite{sysaid} provides several different subsystems to facilitate asynchronous online collaboration, including wikis, ticket trackers, mailing lists, etc.
+
+As Giglium will detail better in the section~\ref{procedures} this tool will be our Service Request Management, Incident Management and \textit{\gls{kb}} Management.
+
+\subsubsection{Microsoft 365 Business Voice}
+
+\begin{figure}[ht!]
+	\centering
+	\includegraphics[width=50mm]{./img/project/microsoft-365.png}
+	\caption{Microsoft 365 logo}\label{fig:microsoft-365}
+	\textbf{Source:} \url{https://www.microsoft.com/it-it/microsoft-365}
+\end{figure}
+
+Giglium believe that the primary means to communicate information with the students is by telephone. Microsoft 365 Business Voice\cite{teams-voice} is a cloud-based phone system built for small and medium-sized businesses. It enables users to make, receive, and transfer calls to and from landlines and mobile phones on the \textit{\gls{pstn}} in \textit{\gls{teams}}. 
+
+It also includes all the integrated solutions including \textit{\gls{teams}}, \textit{\gls{drive}}, \textit{\gls{outlook}}, and \textit{\gls{office}} apps. The perfect combination of tools to get work done with productivity solutions and stay connected with clients whether you are. 
+
+\subsubsection{Libraesva}
+
+\begin{figure}[ht!]
+	\centering
+	\includegraphics[width=40mm]{./img/project/libraesva.png}
+	\caption{Libraesva logo}\label{fig:libraesva}
+	\textbf{Source:} \url{https://www.libraesva.com/}
+\end{figure}
+
+Consequently, an email, fax, and call transcription gateway are necessary. An email and a call transcription gateway permit the team members to simply send or respond to emails or phone calls and it will be automatically inserted into SysAid. Also, since email is still the main vehicle for delivering cyber threats, Libraesva\cite{libraesva} will be a secure email gateway, essentially a firewall, that will scan our incoming email to protect our mailbox from email-borne cyber threats, such as phishing attacks, compromised business emails, malware,  spam, or fraudulent content of various kinds.
+
+\subsubsection{GitHub}
+
+\begin{figure}[ht!]
+	\centering
+	\includegraphics[width=40mm]{./img/project/github.png}
+	\caption{GitHub logo}\label{fig:github}
+	\textbf{Source:} \url{https://github.com/}
+\end{figure}
+
+GitHub\cite{github} is the most popular, cloud-based service that helps developers store and manage their code, as well as track and control changes to their code in the world today. Giglium will save all the artifacts in private \textit{\gls{repository}} here.

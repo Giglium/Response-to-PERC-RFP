@@ -1,0 +1,109 @@
+<mxfile host="65bd71144e">
+    <diagram id="K4DvlMxGWavCKm5CoLhM" name="Page-1">
+        <mxGraphModel dx="1942" dy="745" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="68GkhumTOkhAHJdXeSUd-1" value="" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="1" vertex="1">
+                    <mxGeometry x="10" y="40" width="830" height="890" as="geometry"/>
+                </mxCell>
+                <mxCell id="68GkhumTOkhAHJdXeSUd-3" value="" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="70" width="550" height="170" as="geometry"/>
+                </mxCell>
+                <mxCell id="68GkhumTOkhAHJdXeSUd-2" value="&lt;font style=&quot;font-size: 16px&quot;&gt;incident detection&lt;br&gt;&amp;nbsp;and recording&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="1" vertex="1">
+                    <mxGeometry x="60" y="80" width="130" height="150" as="geometry"/>
+                </mxCell>
+                <mxCell id="68GkhumTOkhAHJdXeSUd-4" value="" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="1" vertex="1">
+                    <mxGeometry x="250" y="80" width="130" height="150" as="geometry"/>
+                </mxCell>
+                <mxCell id="68GkhumTOkhAHJdXeSUd-8" value="Reported via:" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="270" y="70" width="90" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="68GkhumTOkhAHJdXeSUd-9" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;strokeWidth=2;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;notch=0;" parent="1" vertex="1">
+                    <mxGeometry x="190" y="120" width="60" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="68GkhumTOkhAHJdXeSUd-11" value="Telephone" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.stored_data;whiteSpace=wrap;" parent="1" vertex="1">
+                    <mxGeometry x="255" y="100" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="68GkhumTOkhAHJdXeSUd-12" value="Email" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.stored_data;whiteSpace=wrap;" parent="1" vertex="1">
+                    <mxGeometry x="255" y="130" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="68GkhumTOkhAHJdXeSUd-13" value="Fax" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.stored_data;whiteSpace=wrap;" parent="1" vertex="1">
+                    <mxGeometry x="255" y="160" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="68GkhumTOkhAHJdXeSUd-15" value="Internal" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.stored_data;whiteSpace=wrap;" parent="1" vertex="1">
+                    <mxGeometry x="255" y="190" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="68GkhumTOkhAHJdXeSUd-17" value="&lt;span style=&quot;font-size: 16px&quot;&gt;issue logged and validated by the service desk operator&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="1" vertex="1">
+                    <mxGeometry x="440" y="80" width="130" height="150" as="geometry"/>
+                </mxCell>
+                <mxCell id="68GkhumTOkhAHJdXeSUd-18" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;strokeWidth=2;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;notch=0;" parent="1" vertex="1">
+                    <mxGeometry x="380" y="120" width="60" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="68GkhumTOkhAHJdXeSUd-19" value="&lt;font style=&quot;font-size: 16px&quot;&gt;Incident progression monitored, tracked, and communicated&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="1" vertex="1">
+                    <mxGeometry x="690" y="70" width="120" height="820" as="geometry"/>
+                </mxCell>
+                <mxCell id="68GkhumTOkhAHJdXeSUd-21" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.twoWayArrow;dy=0.6;dx=35;" parent="1" vertex="1">
+                    <mxGeometry x="590" y="125" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="68GkhumTOkhAHJdXeSUd-22" value="" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="320" width="550" height="170" as="geometry"/>
+                </mxCell>
+                <mxCell id="68GkhumTOkhAHJdXeSUd-23" value="&lt;span style=&quot;font-size: 16px&quot;&gt;Initial classification&lt;br&gt;&amp;nbsp;and support&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="1" vertex="1">
+                    <mxGeometry x="60" y="330" width="130" height="150" as="geometry"/>
+                </mxCell>
+                <mxCell id="68GkhumTOkhAHJdXeSUd-24" value="" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="1" vertex="1">
+                    <mxGeometry x="250" y="330" width="130" height="150" as="geometry"/>
+                </mxCell>
+                <mxCell id="68GkhumTOkhAHJdXeSUd-25" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;strokeWidth=2;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;notch=0;" parent="1" vertex="1">
+                    <mxGeometry x="190" y="370" width="60" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="68GkhumTOkhAHJdXeSUd-26" value="&lt;span style=&quot;font-size: 16px&quot;&gt;Level 1 diagnosis and resolution by the service desk&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="1" vertex="1">
+                    <mxGeometry x="440" y="330" width="130" height="150" as="geometry"/>
+                </mxCell>
+                <mxCell id="68GkhumTOkhAHJdXeSUd-27" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;strokeWidth=2;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;notch=0;" parent="1" vertex="1">
+                    <mxGeometry x="380" y="370" width="60" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="68GkhumTOkhAHJdXeSUd-28" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.twoWayArrow;dy=0.6;dx=35;" parent="1" vertex="1">
+                    <mxGeometry x="590" y="375" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="68GkhumTOkhAHJdXeSUd-36" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;direction=south;notch=0;" parent="1" vertex="1">
+                    <mxGeometry x="300" y="240" width="60" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="68GkhumTOkhAHJdXeSUd-37" value="incident will be categorized" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="1" vertex="1">
+                    <mxGeometry x="260" y="340" width="110" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="68GkhumTOkhAHJdXeSUd-38" value="Major incident and internal will follow their process" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="1" vertex="1">
+                    <mxGeometry x="260" y="410" width="110" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="68GkhumTOkhAHJdXeSUd-39" value="" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="1" vertex="1">
+                    <mxGeometry x="360" y="550" width="230" height="350" as="geometry"/>
+                </mxCell>
+                <mxCell id="68GkhumTOkhAHJdXeSUd-40" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.twoWayArrow;dy=0.6;dx=35;" parent="1" vertex="1">
+                    <mxGeometry x="590" y="715" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="68GkhumTOkhAHJdXeSUd-41" value="&lt;font style=&quot;font-size: 16px&quot;&gt;Resolution and recovery&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="1" vertex="1">
+                    <mxGeometry x="375" y="570" width="205" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="68GkhumTOkhAHJdXeSUd-42" value="Level 2 (the PERC team) diagnosis and resolution" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="1" vertex="1">
+                    <mxGeometry x="372.5" y="670" width="210" height="105" as="geometry"/>
+                </mxCell>
+                <mxCell id="68GkhumTOkhAHJdXeSUd-43" value="Level 3 (vendor support) diagnosis and resolution" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="1" vertex="1">
+                    <mxGeometry x="372.5" y="790" width="210" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="68GkhumTOkhAHJdXeSUd-44" value="&lt;font style=&quot;font-size: 16px&quot;&gt;Incident closed after user confirmation&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="1" vertex="1">
+                    <mxGeometry x="30" y="785" width="250" height="115" as="geometry"/>
+                </mxCell>
+                <mxCell id="68GkhumTOkhAHJdXeSUd-45" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;flipH=1;notch=0;" parent="1" vertex="1">
+                    <mxGeometry x="280" y="810" width="80" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="68GkhumTOkhAHJdXeSUd-46" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;direction=south;notch=0;" parent="1" vertex="1">
+                    <mxGeometry x="80" y="490" width="70" height="294" as="geometry"/>
+                </mxCell>
+                <mxCell id="68GkhumTOkhAHJdXeSUd-47" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;direction=south;notch=0;" parent="1" vertex="1">
+                    <mxGeometry x="455" y="490" width="40" height="60" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

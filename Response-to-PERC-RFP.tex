@@ -1,0 +1,112 @@
+\documentclass[12pt, a4paper, titlepage]{article}
+\usepackage[a4paper,top=2.5cm,bottom=2cm,left=2cm,right=2cm]{geometry}
+\usepackage[english]{babel}
+\usepackage[hidelinks]{hyperref}
+\usepackage{multirow, graphicx}
+\usepackage{algorithm}
+\usepackage{capt-of}
+\usepackage{amsmath}
+\usepackage{longtable}
+\usepackage{caption}
+\usepackage{booktabs}
+\usepackage{algpseudocode}
+\usepackage{makecell}
+\usepackage[utf8]{inputenc}
+\usepackage{fixltx2e}
+\usepackage{listings}
+\usepackage{hyperref}
+\usepackage{makecell}
+\usepackage{changepage}
+\usepackage{paracol}
+\usepackage{siunitx}
+\usepackage{lipsum}
+\usepackage[swapnames]{frontespizio}
+\usepackage{fancyhdr}
+\usepackage{lastpage}
+\usepackage{pdfpages}
+\usepackage{tabularx, pbox}
+\usepackage{subcaption}
+\usepackage[toc, acronym, nonumberlist, automake]{glossaries}
+\usepackage{pgfgantt}
+\usepackage{tcolorbox}
+\usepackage{footmisc}
+\usepackage{colortbl}
+
+%\renewcommand{\thesection}{\thechapter.\number\numexpr\value{section}-1\relax}
+%\renewcommand{\thesubsection}{\thesection.\number\numexpr\value{subsection}-1\relax}
+%\renewcommand{\thesubsubsection}{\thesubsection.\number\numexpr\value{subsubsection}-1\relax}
+\setcounter{secnumdepth}{3}
+	
+\makeglossaries	
+
+\input{./glossaries.tex}
+	
+\begin{document}
+
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+\pagenumbering{gobble}
+
+\begin{center}
+
+	\textsc{\LARGE Università degli Studi di Padova}\\[1cm]
+
+	\includegraphics[height=5cm]{img/UniPd.png}\\[1cm]
+
+	\includegraphics[height=1.5cm, width = 9cm]{img/MathDip.png}\\
+	\textsc{Dipartimento di Matematica ``Tullio Levi-Civita''}\\[1.2cm]
+	\textsc{\Large Scuola di Scienze}\\[0.5cm]
+
+	\textsc{\large Corso di Laurea Magistrale in Informatica}\\[0.5cm]
+
+	\vspace{2.5cm}
+
+
+	\HRule \\[0.4cm]
+	{ \huge \bfseries Response to a Request for Proposal }\\[0.4cm]
+	\HRule \\[1.5cm]
+
+
+	\vspace{2.5cm}
+
+
+	{\large
+		Francesco Antonio Migliorin \\
+		1207422 \\
+		Anno 2020/2021}\\[2cm]
+
+
+	\vfill
+\end{center}
+
+\includepdf[pages={1}]{./sections/cover-letter.pdf}
+\input{./sections/cover-sheet.tex}
+\setcounter{tocdepth}{2}
+\tableofcontents
+\newpage
+\listoffigures
+\newpage
+\listoftables
+\setcounter{table}{0}
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{Response to a RFP}
+\lhead{IT Management Course}
+\cfoot{\thepage}
+\input{./sections/introduction.tex}
+\input{./sections/project.tex}
+\input{./sections/implementations.tex}
+\input{./sections/structure.tex}
+\input{./sections/procedures.tex}
+\input{./sections/cost.tex}
+\input{./sections/offer.tex}
+
+\glsaddall
+\clearpage
+\pagenumbering{gobble}
+\printglossary[type=\acronymtype]
+\newpage
+\printglossary[type=main]
+\newpage
+\bibliography{bibliographic}
+\bibliographystyle{ieeetr}
+\end{document}

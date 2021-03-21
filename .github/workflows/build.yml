@@ -1,0 +1,28 @@
+---
+    name: Build Code Base
+    
+    on:
+      push:
+        branches:
+          - main
+    
+    jobs:
+      build:
+        name: Build Code Base
+        runs-on: ubuntu-latest
+        container: texlive/texlive:latest 
+
+        steps:
+          - name: Checkout Code
+            uses: actions/checkout@v4
+            with:
+              fetch-depth: 0
+    
+          - name: Configure TeX Live
+            uses: teatimeguest/setup-texlive-action@v3
+            with:
+              packages: |
+                scheme-full
+
+          - name: Convert to pdf
+            run: ./build.sh
