@@ -1,6 +1,6 @@
 # Response to Propane Education & Research Council (PERC) Request For Proposal (RFP)
 
-This repository contains an essay written for the course "IT Service Management" as part of the Master's Degree program at the University of Padua during the academic year [A.A. 2016/2017](https://en.didattica.unipd.it/off/2020/LM/SC/SC1176/000ZZ/SCQ0093638/N0).
+This repository contains an essay written for the course "IT Service Management" as part of the Master's Degree program at the University of Padua during the academic year [A.A. 2020/2021](https://en.didattica.unipd.it/off/2020/LM/SC/SC1176/000ZZ/SCQ0093638/N0).
 
 ## Project Overview
 
